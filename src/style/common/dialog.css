@@ -1,0 +1,138 @@
+/*-------------------
+    Dialog - popup 
+---------------------*/
+
+.show {
+    display: block!important;
+}
+
+
+/* Nền chứa popup */
+
+.m-popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Thông tin chung popup */
+
+.m-popup .m-popup-box {
+    width: fit-content;
+    height: fit-content;
+    min-width: 444px;
+    min-height: 150px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #e9ebee;
+    box-sizing: border-box;
+}
+
+
+/* Popup dạng 1 nửa màn hình */
+
+.m-popup .m-popup-box.popup-right {
+    top: 0%!important;
+    left: auto!important;
+    transform: unset!important;
+    height: 100vh!important;
+    right: 0;
+    position: relative;
+}
+
+
+/* Popup dạng full màn hình */
+
+.m-popup .m-popup-box.popup-full {
+    top: 0%!important;
+    left: 0%!important;
+    transform: unset!important;
+    height: 100vh!important;
+    width: 100%!important;
+}
+
+
+/*Popup*/
+
+.m-popup .m-popup-box.popup-resize-full {
+    top: 0%!important;
+    transform: unset!important;
+    left: 10px!important;
+    height: 100vh!important;
+    width: 100%!important;
+}
+
+.popup-444 {
+    width: 444px!important;
+    max-width: 444px!important;
+}
+
+
+/*--------------------------
+    Phần footer của popup
+----------------------------*/
+
+.m-popup-box__footer {
+    width: 100%;
+    margin-top: 20px;
+    height: 34px;
+    box-sizing: border-box;
+}
+
+.m-popup-box__footer.align-center {
+    justify-content: center;
+}
+
+.m-popup-box__footer.align-right {
+    justify-content: flex-end;
+}
+
+.group-btn-popup {
+    padding: 0;
+    display: flex;
+}
+
+
+/*Popup form*/
+
+
+/* header */
+
+.m-popup .m-popup-box .m-popup-header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-popup-header .popup-title-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+/* body */
+
+.m-popup-body {
+    height: calc(100% - 73px);
+    /*tổng trừ đi header*/
+    display: flex;
+    flex-direction: column;
+}
+
+.h-full {
+    height: 100%;
+}

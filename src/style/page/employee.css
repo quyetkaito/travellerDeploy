@@ -1,0 +1,19 @@
+/*----------------------------------
+    CSS content cho các page
+------------------------------------*/
+
+.employee-content {
+    height: 100%;
+    width: 100%;
+    /*100% của .content*/
+    /* overflow-y: auto; */
+    overflow-x: auto;
+}
+
+.employee-top {
+    padding: 24px 30px 24px 0;
+}
+
+.employee-bottom {
+    padding: 0px 30px 0px 0px;
+}

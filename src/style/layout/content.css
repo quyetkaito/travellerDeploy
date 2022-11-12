@@ -1,0 +1,11 @@
+/* Vị trí của content */
+
+.content {
+    width: 100%;
+    height: calc(100vh - 48px);
+    /* background-color: #f4f5f8; */
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px;
+    overflow: auto;
+}

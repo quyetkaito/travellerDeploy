@@ -1,0 +1,585 @@
+.m-icon {
+    background: url("/src/assets/img/Sprites.64af8f61.svg") no-repeat;
+    cursor: pointer;
+}
+
+.m-fb-icon {
+    background: url("/src/assets/fb-icon.png") no-repeat;
+    cursor: pointer;
+}
+
+.m-comment {
+    background-position: -1px -323px;
+}
+
+.m-share {
+    background-position: -242px -323px;
+}
+
+.m-liked {
+    background: url("/src/assets/icon/liked-icon.png") no-repeat;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    min-width: 24px;
+    min-height: 24px;
+    background-size: contain;
+}
+
+.m-like {
+    background: url("/src/assets/icon/like-icon.png") no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    min-width: 24px;
+    min-height: 24px;
+    background-size: contain;
+}
+
+.m-icon-like-2 {
+    background: url("/src/assets/fb-icon-3.png") no-repeat;
+    cursor: pointer;
+    background-position: 1px -392px;
+    width: 28px;
+    height: 28px;
+}
+
+.m-icon-like {
+    background: url("/src/assets/like-icon.svg") no-repeat;
+    cursor: pointer;
+}
+
+.m-icon-14 {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+.m-icon-16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.m-icon-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.m-icon-48 {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.m-icon-dropdown {
+    background-position: -560px -359px;
+}
+
+.m-arrow-right--black {
+    background-position: -320px -360px;
+    transform: rotate(90deg);
+}
+
+.m-icon-dropdown-white {
+    background-position: -848px -359px;
+}
+
+.m-chevron-right {
+    background-position: -80px -360px;
+}
+
+
+/*nút resize form*/
+
+.m-chevron-left {
+    background-position: -33px -360px;
+}
+
+
+/*mũi tên màu xanh dương*/
+
+.m-chevron-left--primary {
+    background-position: -224px -360px;
+}
+
+
+/*mũi tên xanh dương đặc*/
+
+.m-arrow-up--blue {
+    background-position: -896px -359px;
+}
+
+.deg90 {
+    transform: rotate(90deg);
+}
+
+.deg180 {
+    transform: rotate(180deg);
+}
+
+
+/* Icon thu gọn sidebar */
+
+.m-three-stripes {
+    background-position: -843px -30px;
+}
+
+.m-three-stripes--white {
+    background-position: -312px -32px;
+}
+
+
+/* Tìm kiếm */
+
+.m-icon-search {
+    background-position: -992px -360px;
+}
+
+
+/* Thông báo */
+
+.m-bell__nav {
+    background-position: -788px -30px;
+}
+
+
+/*----------
+ Giúp đỡ
+ -----------*/
+
+.m-help__nav {
+    background-position: -731px -30px;
+}
+
+.m-icon-facebook {
+    background-position: -1928px -758px;
+}
+
+.m-icon-zoom {
+    background-position: -1969px -758px;
+}
+
+.m-icon-youtube {
+    background-position: -2011px -758px;
+}
+
+.m-icon-forum {
+    background-position: -2094px -758px;
+}
+
+.m-icon-operator {
+    background-position: -2053px -758px;
+}
+
+.m-calendar {
+    background-position: -124px -307px;
+}
+
+.m-chat-help {
+    background-position: -417px -894px;
+}
+
+
+/* Chat */
+
+.m-chat__nav {
+    background-position: -899px -30px;
+}
+
+
+/* Thiết lập */
+
+.m-setting__nav {
+    background-position: -675px -30px;
+}
+
+
+/*Tùy chỉnh giao diện 2*/
+
+.m-setting__detail {
+    background-position: -32px -144px;
+}
+
+
+/*Giúp (F1)*/
+
+.m-help {
+    background-position: -89px -144px;
+}
+
+
+/*Phiếu thu gần đây*/
+
+.m-recent-log {
+    background-position: -648px -144px;
+}
+
+
+/*Đính kèm file*/
+
+.m-attach {
+    background-position: -539px -203px;
+}
+
+
+/* biểu tượng lọc  */
+
+.m-funnel-icon {
+    background-position: -1814px -202px;
+}
+
+
+/*kéo thả cột*/
+
+.m-drag-grid {
+    background-position: -416px -360px;
+}
+
+
+/* Dấu cộng màu xanh lá */
+
+.m-plus--success {
+    background-position: -32px -312px;
+}
+
+
+/* Tính năng mở rộng */
+
+.m-category {
+    background-position: -568px -30px;
+}
+
+
+/* Lấy lại dữ liệu */
+
+.m-refresh {
+    background-position: -423px -201px;
+}
+
+.m-refresh-bold {
+    background-position: -1095px -88px;
+}
+
+
+/* Xuất file excel */
+
+.m-excel__nav {
+    background-position: -704px -200px;
+}
+
+
+/* Tùy chỉnh giao diện */
+
+.m-setting__list {
+    background-position: -88px -200px;
+}
+
+.m-setting__list:hover {
+    background-position: -88px -256px;
+}
+
+
+/* Mũi tên checkall */
+
+.m-arrow-check-all {
+    background-position: -256px -143px;
+}
+
+
+/* Hướng dẫn */
+
+.m-tour {
+    background-position: -984px -144px;
+}
+
+
+/* Icon trash trên bảng */
+
+.m-delete {
+    background-position: -464px -312px;
+}
+
+.m-view {
+    background-position: -1602px -403px;
+}
+
+.m-unview {
+    background-position: -1648px -403px;
+}
+
+.m-edit {
+    background-position: -748px -402px;
+}
+
+.m-extension {
+    background-position: -1325px -403px;
+}
+
+
+/* Collapse overview */
+
+.m-chevron-up--primary {
+    background-position: -128px -360px;
+}
+
+
+/*----------------------------------------------
+    ===========Icon Sidebar============
+------------------------------------------------*/
+
+
+/* Trang chủ */
+
+.m-icon-home {
+    background-position: -424px -86px;
+}
+
+
+/* Tổng quan */
+
+.m-sidebar-dashboard {
+    background-position: -30px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-dashboard {
+    background-position: -30px -1585px;
+}
+
+
+/* Tiền mặt */
+
+.m-sidebar-cash {
+    background-position: -73px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-cash {
+    background-position: -73px -1585px;
+}
+
+
+/* Tiền gửi */
+
+.m-sidebar-bank {
+    background-position: -117px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-bank {
+    background-position: -117px -1585px;
+}
+
+
+/* Mua hàng */
+
+.m-sidebar-pu {
+    background-position: -161px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-pu {
+    background-position: -161px -1585px;
+}
+
+
+/* Bán hàng */
+
+.m-sidebar-sale {
+    background-position: -204px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-sale {
+    background-position: -204px -1585px;
+}
+
+
+/* Quản lý hóa đơn */
+
+.m-sidebar-invoice {
+    background-position: -249px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-invoice {
+    background-position: -249px -1585px;
+}
+
+
+/* Kho */
+
+.m-sidebar-stock {
+    background-position: -291px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-stock {
+    background-position: -291px -1585px;
+}
+
+
+/* Công cụ dụng cụ */
+
+.m-sidebar-tools {
+    background-position: -336px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-tools {
+    background-position: -336px -1585px;
+}
+
+
+/* Tài sản cố định */
+
+.m-sidebar-fixed-assets {
+    background-position: -378px -1630px;
+}
+
+.sidebar-item.active .m-sidebar-fixed-assets {
+    background-position: -378px -1587px;
+}
+
+
+/* Thuế */
+
+.m-sidebar-tax {
+    background-position: -423px -1630px;
+}
+
+.sidebar-item.active .m-sidebar-tax {
+    background-position: -423px -1587px;
+}
+
+
+/* Giá thành */
+
+.m-sidebar-price {
+    background-position: -467px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-price {
+    background-position: -467px -1585px;
+}
+
+
+/* Tổng hợp */
+
+.m-sidebar-general {
+    background-position: -510px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-general {
+    background-position: -510px -1585px;
+}
+
+
+/* Ngân sách */
+
+.m-sidebar-budget {
+    background-position: -378px -1659px;
+}
+
+.sidebar-item.active .m-sidebar-budget {
+    background-position: -422px -1659px;
+}
+
+
+/* Báo cáo */
+
+.m-sidebar-report {
+    background-position: -547px -1628px;
+}
+
+.sidebar-item.active .m-sidebar-report {
+    background-position: -547px -1585px;
+}
+
+
+/* Phân tích tài chính */
+
+.m-sidebar-finance {
+    background-position: -204px -1664px;
+}
+
+.sidebar-item.active .m-sidebar-finance {
+    background-position: -204px -1664px;
+}
+
+
+/*-----------------------------------------
+    Custom Icon Checkbox
+-------------------------------------------*/
+
+.m-checkbox-active {
+    background-position: -1224px -360px;
+}
+
+
+/* nút close */
+
+.m-close {
+    background-position: -144px -144px;
+}
+
+
+/* Question*/
+
+.m-exclamation-question-48 {
+    background-position: -826px -456px;
+}
+
+.m-exclamation-info-48 {
+    background-position: -667px -456px;
+}
+
+
+/* icon warning vàng */
+
+.m-exclamation-warning-48 {
+    background-position: -592px -456px;
+}
+
+
+/*icon error*/
+
+.m-exclamation-error-48-2 {
+    background-position: -24px -954px;
+}
+
+
+/*icon correct*/
+
+.m-exclamation-correct-48 {
+    background-position: -985px -456px;
+}
+
+
+/*----------------------
+    Dictionary Area
+------------------------*/
+
+
+/* Nhân viên */
+
+.m-process-employee {
+    background-position: -984px -200px;
+}
+
+
+/* Nhà cung cấp */
+
+.m-process-provider {
+    background-position: -928px -200px;
+}
+
+
+/* Khách hàng */
+
+.m-process-customer {
+    background-position: -872px -200px;
+}
+
+.m-process-account {
+    background-position: -1377px -256px;
+}

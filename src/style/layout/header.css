@@ -1,0 +1,65 @@
+/*------------------------------
+    CSS Phần header dùng chung
+--------------------------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /*nhớ dấu cách sau 100% (221px = 220px navbar + 1px border)*/
+    height: 48px;
+    box-sizing: border-box;
+    @apply shadow-orange-800
+}
+
+.header .header-left {
+    display: flex;
+}
+
+.header .header-left .m-toggle {
+    margin: 0 10px;
+}
+
+.header .header-left .branch-option {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-left .branch-option .branch-text {
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #111;
+}
+
+.header .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.header .header-right .header-right-avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+    margin-left: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    /* background-image: url('../../assets/img/default-avatar.jpg'); */
+    cursor: pointer;
+}
+
+.header .header-right .header-right-username {
+    margin-right: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

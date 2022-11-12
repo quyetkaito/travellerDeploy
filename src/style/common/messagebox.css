@@ -1,0 +1,89 @@
+/*-------------------
+    Dialog - message 
+---------------------*/
+
+
+/* Nền chứa message */
+
+.m-message {
+    position: fixed;
+    z-index: 6868;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Thông tin chung message */
+
+.m-message .m-message-box {
+    width: fit-content;
+    height: fit-content;
+    min-width: 444px;
+    min-height: 150px;
+    padding: 32px;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #e9ebee;
+    box-sizing: border-box;
+}
+
+.message-444 {
+    width: 444px!important;
+    max-width: 444px!important;
+}
+
+
+/*-----------------------
+    Phần body của message
+-------------------------*/
+
+.m-message-box__body {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #8d9096;
+}
+
+.m-message-box__body .m-message-context {
+    display: flex;
+}
+
+.m-message-box__body .m-message-context .m-message-text-container {
+    padding-left: 16px;
+    padding-top: 12px;
+    margin-bottom: 32px;
+}
+
+
+/*--------------------------
+    Phần footer của message
+----------------------------*/
+
+.m-message-box__footer {
+    width: 100%;
+    margin-top: 20px;
+    height: 34px;
+    box-sizing: border-box;
+}
+
+.m-message-box__footer.align-center {
+    justify-content: center;
+}
+
+.m-message-box__footer.align-right {
+    justify-content: flex-end;
+}
+
+.group-btn-message {
+    padding: 0;
+    display: flex;
+}
+
+
+/*message form*/

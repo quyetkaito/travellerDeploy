@@ -1,0 +1,183 @@
+.m-btn {
+    font-family: Notosans-Regular;
+    font-size: 13px;
+    height: 34px;
+    width: fit-content;
+    /* max-width: 250px; */
+    box-sizing: border-box;
+    border: none;
+    outline: unset;
+    padding: 6px 16px;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: var(--default-color);
+}
+
+.m-btn:hover,
+.m-btn:focus {
+    background-color: var(--hover-color);
+}
+
+button:disabled {
+    cursor: not-allowed!important;
+}
+
+.m-btn-text {
+    font-weight: 600;
+    position: relative;
+    white-space: nowrap;
+}
+
+.m-btn-second {
+    font-family: Notosans-Regular;
+    font-size: 13px;
+    height: 34px;
+    outline: unset;
+    box-sizing: border-box;
+    border: 1px solid var(--default-border-color);
+    padding: 6px 16px;
+    color: #111;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.m-btn-second:hover,
+.m-btn-second:focus {
+    background-color: var(--second-hover);
+}
+
+.m-btn.m-btn--red {
+    background-color: var(--danger-color);
+}
+
+.m-btn.m-btn--red:hover {
+    background-color: var(--danger-color);
+}
+
+
+/*------------------
+    Button thêm mới
+--------------------*/
+
+.add-button {
+    display: flex;
+}
+
+.add-button .add-button-left {
+    border-radius: 30px 0px 0px 30px;
+    border: none;
+    height: 100%;
+    padding: 8px 16px 8px 20px;
+    background-color: var(--default-color);
+    color: #ffffff;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.add-button .add-button-left:hover,
+.add-button .add-button-left:focus {
+    background-color: var(--hover-color);
+}
+
+.add-button .add-button-right {
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    height: 100%;
+    padding: 8px 16px;
+    background-color: var(--default-color);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.add-button .add-button-right:hover,
+.add-button .add-button-right:focus {
+    background-color: var(--hover-color);
+}
+
+.add-button-right-content {
+    display: flex;
+    align-items: center;
+}
+
+.add-button-right-content .line {
+    position: relative;
+    height: 20px;
+    top: 0px;
+    left: -16px;
+    border: 1px solid transparent;
+    border-left-color: #fff;
+    box-sizing: border-box;
+}
+
+
+/*--------------------------
+    Button trigger dropdown
+----------------------------*/
+
+.m-btn-dropdown {
+    padding: 0px 16px;
+    font-size: 13px;
+    font-family: Notosans-Regular;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #000000;
+    height: 36px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.m-btn-dropdown:hover {
+    background-color: var(--second-hover);
+}
+
+.m-btn-dropdown .text-dropdown {
+    padding-right: 4px;
+}
+
+.btn-sm {
+    padding: 2px 20px !important;
+    height: 24px !important;
+}
+
+
+/* Tailwind */
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-700;
+}
+
+.btn-primary {
+    background-color: var(--default-color)!important;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    opacity: 80%;
+}
+
+.btn-content {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    flex: 1 0 auto;
+    justify-content: inherit;
+    line-height: normal;
+    position: relative;
+}

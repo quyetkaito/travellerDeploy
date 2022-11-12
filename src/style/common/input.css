@@ -1,0 +1,234 @@
+.m-input {
+    height: var(--default-height);
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid var(--default-border-color);
+    padding: 0px 12px 0px 10px;
+    border-radius: 5px;
+    outline: unset;
+    caret-color: red;
+}
+
+.m-input:hover {
+    outline: 1px solid #c7c7c7;
+    /* border-color: var(--default-color); */
+}
+
+.m-input:focus {
+    border-color: var(--default-color);
+    outline: none!important;
+}
+
+.m-input::placeholder {
+    font-size: 12px;
+    font-family: Notosans-Italic;
+    color: var(--placeholder-color)
+}
+
+.m-input.error {
+    border-color: var(--danger-color)!important;
+}
+
+.m-input.error:hover,
+.m-input.error:focus {
+    border-color: var(--danger-color);
+}
+
+.m-input.error::placeholder {
+    font-size: 11px;
+    color: var(--danger-color);
+}
+
+
+/*-------------------
+    input dropdown
+---------------------*/
+
+.m-custom-input-container {
+    display: flex;
+    height: 32px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.m-custom-input-container .m-custom-input .m-input.m-cbx-input {
+    padding: 0px 30px 0px 10px;
+}
+
+.m-custom-input-container .m-dropdown-arrow {
+    height: 30px;
+    position: relative;
+    left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 100%;
+}
+
+.m-custom-input-container .m-dropdown-arrow:hover,
+.m-custom-input-container .m-dropdown-arrow:focus {
+    background-color: #8d9096;
+}
+
+
+/*--------------
+    Input date
+----------------*/
+
+.form-date {
+    display: flex;
+    align-items: center;
+}
+
+.form-date .calendar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 0px 2px 2px 0px;
+    position: relative;
+    left: -31px;
+}
+
+.form-date .calendar-icon:hover {
+    background-color: #e0e0e0;
+}
+
+
+/*Ẩn icon calendar mặc định*/
+
+input[type="date"] {
+    font-family: Notosans-Regular;
+    text-transform: uppercase;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* display: none; */
+    opacity: 0;
+    -webkit-appearance: none;
+}
+
+
+/*---------------------------------------------
+    Ẩn mũi tên tăng giảm input dạng số mặc định
+------------------------------------------------*/
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+    text-align: right;
+}
+
+
+/*----------------------
+    Custom Radio Button
+------------------------*/
+
+.m-radio {
+    display: flex;
+    align-items: center;
+}
+
+.m-radio>input {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    appearance: none;
+    /*ẩn nút mặc định*/
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    outline: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.m-radio>input:checked {
+    border: none;
+    background-image: url("@/assets/icon/radio@2x.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.m-radio .radio-label {
+    margin-left: 8px;
+}
+
+
+/*MSInput*/
+
+.m-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.require-mark {
+    color: var(--danger-color);
+    font-weight: normal !important;
+}
+
+.require {
+    display: inline-block;
+}
+
+
+/*-----------------------------------
+    Input với icon ở cuối ô nhập liệu
+-------------------------------------*/
+
+.m-input-icon {
+    padding: 0px 40px 0px 10px;
+}
+
+.m-search {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+}
+
+
+/*Input dạng text area*/
+
+.m-textarea {
+    padding: 8px 12px 8px 10px!important;
+    height: 55px;
+    min-height: 40px!important;
+    font-family: Notosans-Regular;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+input:disabled {
+    color: #111111;
+}
+
+.caret-green {
+    caret-color: var(--default-color);
+}
+
+.caret-red {
+    caret-color: var(--danger-color);
+}

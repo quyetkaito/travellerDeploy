@@ -1,0 +1,88 @@
+.mx-datepicker {
+    width: 100% !important;
+}
+
+.mx-input-wrapper {
+    width: 100% !important;
+}
+
+.mx-input {
+    border-radius: 5px !important;
+    border: 2px solid var(--default-border-color) !important;
+    height: 40px !important;
+}
+
+.mx-input.error {
+    border-radius: 5px !important;
+    border: 2px solid red !important;
+    height: 40px !important;
+}
+
+.mx-input.error:focus {
+    border: 2px solid red !important;
+}
+
+.mx-input:focus {
+    border-color: var(--default-color) !important;
+}
+
+.mx-input::placeholder {
+    /* text-transform: uppercase; */
+    font-style: italic;
+    font-size: 11px;
+    color: var(--placeholder-color);
+}
+
+.mx-input:hover {
+    outline: 1px solid #c7c7c7;
+    /* border: 1px solid var(--border-color) !important; */
+}
+
+.mx-btn:hover {
+    border-color: var(--hover-color) !important;
+    color: #35bf22 !important;
+}
+
+.mx-calendar-content .cell.active {
+    background-color: #D5ECD2!important;
+    color: var(--default-color)!important;
+    border-radius: 50% !important;
+}
+
+.today {
+    color: var(--hover-color) !important;
+}
+
+.mx-table thead tr th {
+    color: #757575 !important;
+    font-weight: 600 !important;
+}
+
+.mx-table td {
+    /* border-radius: 50% !important; */
+    font-weight: 600 !important;
+}
+
+.mx-table td:hover {
+    border-color: var(--default-color) !important;
+}
+
+.mx-icon-calendar,
+.mx-icon-clear {
+    cursor: pointer;
+}
+
+.not-current-month {
+    opacity: 0%!important;
+    cursor: default!important;
+}
+
+.mx-input:disabled,
+.mx-input.disabled {
+    cursor: default!important;
+    background: var(--disabled-color)!important;
+}
+
+.mx-datepicker.disabled input {
+    color: #111111;
+}

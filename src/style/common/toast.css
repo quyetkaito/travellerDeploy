@@ -1,0 +1,39 @@
+.m-toastbox {
+    position: fixed;
+    left: 40%;
+    top: 48px;
+    z-index: 999999;
+}
+
+.m-toast-item {
+    min-width: 300px;
+    border: 1px solid var(--default-color);
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    /* animation-name: slidein;
+    animation-duration: 0.5s; */
+    animation: slidein 0.5s, slideout 1s 1s forwards;
+}
+
+.m-toast-text {
+    margin-left: 10px;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slideout {
+    to {
+        opacity: 0;
+    }
+}

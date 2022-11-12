@@ -1,0 +1,33 @@
+.m-card {
+    @apply shadow-sm;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border: 2px solid #C7BFB7;
+    padding: 10px;
+}
+
+.m-card-bottom {
+    @apply shadow-sm;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 2px solid #C7BFB7;
+    padding: 10px;
+}
+
+.m-card-gray {
+    @apply shadow-sm;
+    border-radius: 5px;
+    background-color: var(--bg-main);
+    margin-bottom: 10px;
+    border: 2px solid #C7BFB7;
+    padding: 10px;
+}
+
+.m-card-gray-bottom {
+    @apply shadow-sm;
+    border-radius: 5px;
+    background-color: var(--bg-main);
+    border: 2px solid #C7BFB7;
+    padding: 10px;
+}

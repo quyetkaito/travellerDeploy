@@ -1,0 +1,88 @@
+.m-paging {
+    height: 56px;
+    box-sizing: border-box;
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    /*cố định bottom*/
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.m-paging .paging-left {
+    /* background-color: aqua; */
+}
+
+.m-paging .paging-right {
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+}
+
+.m-paging .paging-right .paging-action {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paging-action .prev-button {
+    padding: 0px 10px;
+    cursor: pointer;
+    border: 2px solid var(--info-color);
+    border-right: 0px;
+    border-radius: 5px 0 0 5px;
+    height: 30px;
+    background-color: white;
+}
+
+.paging-action .next-button {
+    padding: 0px 10px;
+    cursor: pointer;
+    border: 2px solid var(--info-color);
+    border-radius: 0 5px 5px 0;
+    height: 30px;
+    background-color: white;
+}
+
+.m-paging-number {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    background-color: transparent;
+    margin: 0px;
+    cursor: pointer;
+    border: 2px solid var(--info-color);
+    border-right: 0px;
+    background: white;
+}
+
+.m-paging-number:hover,
+.m-paging-number:focus {
+    background-color: #ffffff;
+    font-family: Notosans-Bold;
+}
+
+.m-paging-number.active {
+    background-color: var(--info-color);
+    color: white;
+    font-family: Notosans-Bold;
+}
+
+.action-button {
+    cursor: pointer;
+}
+
+.action-button.disabled {
+    opacity: 50%;
+}

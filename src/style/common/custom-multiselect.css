@@ -1,0 +1,101 @@
+/* https://github.com/vueform/multiselect#using-with-vue-3 */
+
+
+/* link lib */
+
+.multiselect-tag {
+    background-color: #F0F0F0!important;
+    color: #000!important;
+    border: 1px solid var(--border-color-card)!important;
+    border-radius: 3px!important;
+    font-size: 12px!important;
+}
+
+.multiselect {
+    height: 40px!important;
+    min-height: unset!important;
+    border: 2px solid var(--default-border-color)!important;
+    border-radius: 5px!important;
+    box-sizing: border-box;
+}
+
+.multiselect:focus-within {
+    border: 2px solid var(--input-focus)!important;
+}
+
+.multiselect:hover {
+    outline: 1px solid #c7c7c7;
+}
+
+.tags .multiselect {
+    height: unset!important;
+}
+
+.multiselect-search {
+    font-size: 13px!important;
+    font-family: Notosans-Regular!important;
+}
+
+.multiselect-single-label {
+    /* padding-right: unset!important; */
+}
+
+.multiselect-single-label-text {
+    font-size: 13px!important;
+    font-family: Notosans-Regular!important;
+}
+
+.multiselect-placeholder {
+    color: var(--placeholder-color)!important;
+    font-size: 13px!important;
+    font-family: Notosans-Regular!important;
+}
+
+.multiselect.is-active {
+    box-shadow: none!important;
+}
+
+.multiselect-options {
+    max-height: unset!important;
+}
+
+.multiselect-option {
+    font-size: 13px!important;
+    font-family: Notosans-Regular!important;
+    white-space: nowrap!important;
+}
+
+.multiselect-option.is-pointed {
+    background: var(--hover-background)!important;
+    color: var(--default-color)!important;
+}
+
+.multiselect-option.is-selected {
+    background: var(--default-color)!important;
+}
+
+.multiselect-option.is-selected.is-pointed {
+    color: #fff!important;
+}
+
+.table-select .multiselect-option {
+    padding: 0!important;
+}
+
+.multiselect-dropdown {
+    max-height: 130px!important;
+    border: 1px solid var(--default-border-color)!important;
+    border-radius: 0px 0px 2px 2px!important;
+    width: fit-content!important;
+    min-width: 100%!important;
+    overflow: auto!important;
+    /* bottom: -2px!important; */
+}
+
+.multiselect-caret {
+    cursor: pointer!important;
+}
+
+.multiselect.is-disabled {
+    background: var(--disabled-color)!important;
+}

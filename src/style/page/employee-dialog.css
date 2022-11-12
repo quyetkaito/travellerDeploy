@@ -1,0 +1,207 @@
+/*-------------------
+    Dialog thêm mới
+---------------------*/
+
+.m-popup.m-add-popup .m-popup-box {
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #e9ebee;
+    box-sizing: border-box;
+}
+
+.m-popup-header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-popup-header .m-popup-header__left {
+    display: flex;
+    width: calc(100% - 78px);
+    align-items: center;
+    padding: 20px 12px 20px 32px;
+}
+
+.popup-right .m-popup-header .m-popup-header__left {
+    padding: 20px 12px 20px 16px;
+}
+
+.m-popup-header__left .title-container {
+    display: flex;
+}
+
+.m-popup-header__left .title-container .popup-title-text {
+    font-size: 24px;
+    /* font-family: Notosans-Bold; */
+    font-weight: 600;
+    color: #000;
+}
+
+.m-popup-header .m-popup-header__right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 12px;
+}
+
+
+/*--------------------------------
+    Phần body của dialog thêm mới
+----------------------------------*/
+
+.m-popup-form {
+    box-sizing: border-box;
+    height: calc(100% - 73px);
+    padding: 0px 32px 20px 32px;
+}
+
+.popup-right .m-popup-form {
+    padding: 0px 16px 20px 16px;
+}
+
+.m-popup-form .form-container {
+    height: calc(100% - 87px);
+    overflow-y: auto;
+    /* background-color: aqua; */
+}
+
+.form-container .general-info {
+    width: 100%;
+    display: flex;
+}
+
+.form-container .general-info .info-left {
+    box-sizing: border-box;
+    width: 50%!important;
+    padding-right: 26px;
+}
+
+.form-container .general-info .info-right {
+    box-sizing: border-box;
+    width: 50%!important;
+    /* background-color: yellow; */
+}
+
+.m-form-field {
+    display: flex;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.form-item {
+    box-sizing: border-box;
+}
+
+.form-container .contact-info {
+    margin-top: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    /* background-color: blue; */
+}
+
+.m-field-gender {
+    display: flex!important;
+    height: 32px;
+    align-items: center;
+}
+
+
+/*--------------------------------
+    Phần footer của dialog thêm mới
+----------------------------------*/
+
+.m-popup-form .footer-container {
+    height: 87px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.m-popup-form .footer-container .footer-line {
+    width: 100%;
+    height: calc(20px + 32px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-top: 1px solid #8d9096;
+}
+
+
+/*--------------------
+    Ẩn hiện Tooltip trong dialog
+---------------------*/
+
+.hide {
+    display: none;
+}
+
+
+/* Tooltip cho nút Close Dialog */
+
+.m-close:hover+.hide {
+    display: block;
+    position: absolute;
+    left: -30px;
+    bottom: -10px;
+}
+
+
+/* tooltip cho nút [giúp] */
+
+.m-help__nav:hover+.hide {
+    display: block;
+    position: absolute;
+    left: -30px;
+    bottom: -10px;
+}
+
+
+/* tooltip cho nút save */
+
+.btn-save:hover+.hide {
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: -30px;
+    white-space: nowrap;
+}
+
+
+/* tooltip cho nút cất và thêm */
+
+.btn-multi-add:hover+.hide {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: -30px;
+    white-space: nowrap;
+}
+
+
+/* Lấy lại dữ liệu */
+
+.btn-refresh:hover+.hide {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    white-space: nowrap;
+}
+
+
+/* Xuất ra excel */
+
+.btn-export:hover+.hide {
+    display: block;
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    white-space: nowrap;
+}

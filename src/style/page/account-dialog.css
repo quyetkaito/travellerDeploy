@@ -1,0 +1,31 @@
+.m-collapse {
+    padding: 10px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.m-collapse__label {
+    font-size: 16px;
+}
+
+.m-collapse__label:hover {
+    color: var(--default-color);
+}
+
+.resize {
+    width: 14px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #d4d7dc;
+    border-radius: 8px;
+    position: absolute;
+    align-items: center;
+    left: -9px;
+    top: 43%;
+    z-index: 99;
+}
+
+.m-collapse__content {
+    /* background-color: aqua; */
+    padding: 0px 10px 10px 10px;
+    /* height: 100px; */
+}

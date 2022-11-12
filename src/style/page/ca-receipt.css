@@ -1,0 +1,95 @@
+.ca-receipt-content {
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.ca-receipt-bottom {
+    padding: 0px 30px 0px 0px;
+}
+
+.m-checkall-arrow {
+    padding: 10px 12px 0px 0px;
+}
+
+.btn-setting {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.ca-receipt-bottom .content-bottom .filter-area {
+    margin-top: 0px;
+    padding: 16px;
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+.ca-receipt-top {
+    padding: 24px 30px 11px 0px;
+}
+
+.guide-tour {
+    margin-right: 12px;
+}
+
+.guide-tour-label {
+    padding: 0px 0px 0px 5px;
+    color: var(--info-color);
+}
+
+.guide-tour-label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ca-receipt-bottom .content-bottom {
+    height: calc(100vh - 180px)!important;
+}
+
+.button-collapse-overview {
+    position: absolute;
+    top: -16px;
+    right: 22px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid var(--border-color-card);
+    cursor: pointer;
+}
+
+.payment-tabs {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    height: 52px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.payment-tabs-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: fit-content;
+    min-width: 50px;
+    /* background-color: yellow; */
+    padding: 7.5px 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.payment-tabs-item:hover {
+    color: var(--default-color);
+}
+
+.payment-tabs-item.active-item {
+    color: #2ca01c;
+    font-weight: 700;
+}

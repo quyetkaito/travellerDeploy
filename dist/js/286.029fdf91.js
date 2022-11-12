@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktraveller"]=self["webpackChunktraveller"]||[]).push([[286],{3286:function(e,t,n){n.r(t),n.d(t,{default:function(){return i}});var r=n(3396);const a={id:"map"};function u(e,t,n,u,d,l){return(0,r.wg)(),(0,r.iD)("div",a)}var d={data(){return{map:null,mapCenter:{lat:0,lng:0}}},mounted(){},methods:{initMap(){}}},l=n(89);const c=(0,l.Z)(d,[["render",u],["__scopeId","data-v-1cbd6f41"]]);var i=c}}]);
+//# sourceMappingURL=286.029fdf91.js.map

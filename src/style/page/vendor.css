@@ -1,0 +1,63 @@
+.vendor-content {
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.vendor-bottom {
+    padding: 0px 30px 0px 0px;
+}
+
+.m-checkall-arrow {
+    padding: 10px 12px 0px 0px;
+}
+
+.btn-setting {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.vendor-bottom .content-bottom .filter-area {
+    margin-top: 20px;
+    padding: 16px;
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+.vendor-top {
+    padding: 24px 30px 11px 0px;
+}
+
+.guide-tour {
+    margin-right: 12px;
+}
+
+.guide-tour-label {
+    padding: 0px 0px 0px 5px;
+    color: var(--info-color);
+}
+
+.guide-tour-label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.vendor-bottom .content-bottom {
+    height: calc(100vh - 135px)!important;
+}
+
+.button-collapse-overview {
+    position: absolute;
+    top: -16px;
+    right: 22px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid var(--border-color-card);
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+{
+    "common": {
+        "error_message": "Đã có lỗi xảy ra. Vui lòng liên hệ quản trị viên để được hỗ trợ.",
+        "select_lang": "Ngôn ngữ",
+        "add_new": "Thêm mới"
+    },
+    "login": {
+        "use_traveller_account": "Sử dụng tài khoản Traveller",
+        "use_social_account": "Sử dụng tài khoản mạng xã hội"
+    },
+    "Logout": "Đăng xuất",
+    "register": {
+        "RegisterNewAccount": "Đăng ký tài khoản mới"
+    },
+    "forgot_password": {
+        "GetPasswordBack": "Lấy lại mật khẩu",
+        "ChangePassword": "Thay đổi mật khẩu",
+        "Confirm": "Xác nhận"
+    },
+    "category": {
+        "title": "danh mục",
+        "Title": "Danh mục",
+        "CategoryManager": "Quản lý danh mục",
+        "add": "Thêm mới danh mục",
+        "quick_add": "Thêm danh mục",
+        "edit": "Chỉnh sửa danh mục",
+        "category_name": "Tên danh mục",
+        "add_button": "Thêm"
+    },
+    "message": {
+        "success": "Thành công",
+        "success_add": "Thêm mới thành công",
+        "success_delete": "Xóa thành công",
+        "delete_confirm": "Bạn có chắc chắn muốn xóa?"
+    },
+    "VoucherList": "Danh sách mã giảm giá",
+    "UserManager": "Quản lý người dùng",
+    "Delete": "Xóa",
+    "Edit": "Sửa",
+    "View": "Xem",
+    "MultiDelete": "Xóa nhiều",
+    "UserDetail": "Thông tin người dùng",
+    "UserName": "Tên đăng nhập",
+    "FullName": "Họ và tên",
+    "PhoneNumber": "Số điện thoại",
+    "EmailLogin": "Email đăng nhập",
+    "Password": "Mật khẩu",
+    "Save": "Lưu",
+    "SaveAndAdd": "Lưu và thêm mới",
+    "SaveAndClose": "Lưu và đóng",
+    "Cancel": "Hủy",
+    "SaveTemp": "Lưu nháp",
+    "Login": "Đăng nhập",
+    "Register": "Đăng ký",
+    "ForgotPassword": "Quên mật khẩu",
+    "NoAccount": "Bạn chưa có tài khoản",
+    "AlreadyHasAccount": "Bạn đã có tài khoản",
+    "Active": "Kích hoạt",
+    "NoOTPReceipt": "Bạn không nhận được mã?",
+    "ResendOTP": "Gửi lại mã"
+}

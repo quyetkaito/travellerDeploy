@@ -1,0 +1,222 @@
+.table-container {
+    overflow: auto;
+    height: 100%;
+}
+
+.table-container:hover {
+    overflow: auto;
+}
+
+
+/* table class="m-table" */
+
+.m-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: unset;
+    /* border: none; */
+    overflow: unset;
+}
+
+
+/* Bảng */
+
+
+/* Style cho một số tr, td, th cơ bản */
+
+.m-table th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    text-align: center !important;
+    text-transform: uppercase;
+    background-color: #eceef1;
+    font-size: 12px;
+    cursor: pointer;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid #c7c7c7!important;
+}
+
+.m-table td {
+    height: 44px;
+    max-height: 44px;
+    box-sizing: border-box;
+}
+
+.m-table th,
+.m-table td {
+    box-sizing: border-box;
+    padding: 0 16px;
+    border-right: 1px dotted #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+
+/*Thẻ div ngay sau th, td*/
+
+.m-table th>div,
+.m-table td>div {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.m-table th>div {
+    white-space: nowrap;
+}
+
+
+/* Style cho một số cột đầu cuối*/
+
+.m-table th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 3;
+}
+
+.m-table th:last-child {
+    position: sticky;
+    right: 0;
+    z-index: 3;
+    border-right: none!important;
+    border-left: 1px solid #c7c7c7;
+}
+
+.m-table td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background-color: inherit;
+}
+
+.m-table td:last-child {
+    position: sticky;
+    right: 0px;
+    z-index: 2;
+    background-color: inherit;
+    border-right: none!important;
+    border-left: 1px dotted #c7c7c7;
+}
+
+.m-table th:nth-last-child(2),
+.m-table td:nth-last-child(2) {
+    border-right: none!important;
+}
+
+.m-table tbody tr {
+    background-color: #ffffff;
+}
+
+.m-table tbody tr:hover {
+    background-color: #f3f8f8 !important;
+}
+
+.m-table tbody tr.selected {
+    background-color: #e5f3ff;
+    ;
+    color: #000;
+}
+
+
+/*-------------------
+    Custom scrollbar
+--------------------*/
+
+.table-container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #e5e5e5;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #b8bcc3;
+    border-radius: 2px;
+    height: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background-color: #888888;
+}
+
+
+/*---------------------------
+    cột chức năng của table
+-----------------------------*/
+
+.m-table-tool {
+    box-sizing: border-box;
+}
+
+.tool-btn {
+    outline: unset;
+    border: none;
+    font-weight: 600;
+    color: var(--info-color);
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 6px 1px 6px 16px;
+    cursor: pointer;
+}
+
+.m-table-tool__icon {
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+
+.m-table-tool__icon .line {
+    width: 26px;
+    box-sizing: border-box;
+}
+
+.m-table-tool__icon .line:hover {
+    border: 1px solid var(--info-color);
+}
+
+
+/* Skeleton */
+
+tbody.empty td div {
+    height: 20px;
+    background: linear-gradient(0.25turn, transparent, #fff, transparent), linear-gradient(#eee, #eee), radial-gradient(38px circle at 19px 19px, #eee 50%, transparent 51%), linear-gradient(#eee, #eee) no-repeat -315px 0, 0 0, 0px 190px, 50px 195px;
+    animation: pulse-bg 2s infinite;
+}
+
+@keyframes pulse-bg {
+    to {
+        background-position: 315px 0, 0 0, 0 190px, 50px 195px;
+    }
+}
+
+.m-table.border-bottom-only th,
+.m-table.border-bottom-only td {
+    border-left: none!important;
+    border-right: none!important;
+}
+
+.m-table.no-border th,
+.m-table.no-border td {
+    border-left: none!important;
+    border-right: none!important;
+    border-bottom: none!important;
+}
+
+.m-table .m-table-footer {
+    position: sticky;
+    bottom: 52px;
+    z-index: 10;
+}
+
+.m-table .m-table-footer th {
+    border: none!important;
+}
+
+.none-border th {
+    border: none!important;
+}
+
+.table-checkbox .m-checkbox {
+    justify-content: center;
+}

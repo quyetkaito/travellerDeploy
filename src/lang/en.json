@@ -1,0 +1,17 @@
+{
+    "common": {
+        "select_lang": "Language",
+        "add_new": "Add new"
+    },
+    "login": {
+        "use_social_account": "Using social networking accounts"
+    },
+    "VoucherList": "Voucher List",
+    "UserManager": "User Manager",
+    "Delete": "Delete",
+    "Edit": "Edit",
+    "View": "View",
+    "UserDetail": "User Infomation",
+    "NoAccount": "Don't have an account"
+
+}
